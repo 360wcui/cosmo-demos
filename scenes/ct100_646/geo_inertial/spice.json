@@ -1,7 +1,7 @@
 {
    "version"      : "1.0",
-    "name"        : "Geostationary Orbit SPICE Catalog",
+    "name"        : "Rocket Launch SPICE Catalog",
     "spiceKernels": [
-			"leo.bsp"
+			"many-orbits.bsp"
     ]
 }
