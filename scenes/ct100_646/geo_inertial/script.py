@@ -8,14 +8,14 @@
 import cosmoscripting
 
 cosmo  = cosmoscripting.Cosmo()
-bodies = [ 'Sun', 'Earth', 'Moon', 'GEO Spacecraft', '998', '996', '997' ]
+bodies = [ 'Sun', 'Earth', 'Moon', 'Cape Canaveral', '998', '996', '997' ]
 
 ########################################
 # Initial setup
 # 2021 MAR 03 22:10:35.000
 cosmo.showFullScreen()
 cosmo.pause()
-cosmo.setTime( '2021-12-26 06:00:00 UTC' )
+cosmo.setTime( '2021-12-26 12:00:00 UTC' )
 cosmo.hideAllObjects()
 cosmo.hideToolBar()
 cosmo.hideSpiceMessages()
@@ -27,7 +27,7 @@ cosmo.hidePlanetOrbits()
 for body in bodies:
 	cosmo.showObject( body )
 # cosmo.wait( 10)
-cosmo.showTrajectory( 'GEO Spacecraft' )
+cosmo.showTrajectory( 'Cape Canaveral' )
 # cosmo.showTrajectory( '996' )
 # cosmo.showTrajectory( '997' )
 # cosmo.showTrajectory( '998' )
@@ -45,7 +45,7 @@ cosmo.showLabels()
 
 cosmo.fadeIn( 1 )
 cosmo.wait( 2 )
-cosmo.showDirectionVector( 'Earth', 'GEO Spacecraft' )
+cosmo.showDirectionVector( 'Earth', 'Cape Canaveral' )
 cosmo.wait( 1 )
 cosmo.setTimeRate( 600 )
 cosmo.unpause()
