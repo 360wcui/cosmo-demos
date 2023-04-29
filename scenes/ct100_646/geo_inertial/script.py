@@ -15,7 +15,7 @@ bodies = [ 'Sun', 'Earth', 'Moon', 'GEO Spacecraft', '998', '996', '997' ]
 # 2021 MAR 03 22:10:35.000
 cosmo.showFullScreen()
 cosmo.pause()
-cosmo.setTime( '2021-12-26 00:00:00 UTC' )
+cosmo.setTime( '2021-12-26 06:00:00 UTC' )
 cosmo.hideAllObjects()
 cosmo.hideToolBar()
 cosmo.hideSpiceMessages()
@@ -36,8 +36,8 @@ cosmo.showTrajectory( 'Moon' )
 cosmo.setCentralObject( 'Earth' )
 cosmo.selectObject( 'Earth' )
 cosmo.setCameraToInertialFrame()
-cosmo.setCameraPosition( [ 16486.129309, -3942.242309, 9283.124232 ] )
-cosmo.setCameraOrientation( [ -0.669684, -0.403500, -0.311482, -0.540084 ] )
+cosmo.setCameraPosition( [ -19904.398788, -6191.286492, 8402.380904 ] )
+cosmo.setCameraOrientation( [ -0.717461, -0.411346, 0.379296, 0.414944 ] )
 cosmo.showLabels()
 
 ########################################
