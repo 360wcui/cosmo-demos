@@ -14,8 +14,7 @@ bodies = [ 'Sun', 'Earth', 'Moon', 'Cape Canaveral', '998', '996', '997' ]
 # Initial setup
 # 2021 MAR 03 22:10:35.000
 cosmo.showFullScreen()
-cosmo.pause()
-cosmo.setTime( '2021-12-26 12:00:00 UTC' )
+cosmo.setTime( '2021-12-26 14:00:10 UTC' )
 cosmo.hideAllObjects()
 cosmo.hideToolBar()
 cosmo.hideSpiceMessages()
@@ -44,13 +43,16 @@ cosmo.showLabels()
 # Begin scene
 
 cosmo.fadeIn( 1 )
+cosmo.setTimeRate( 4 )
+cosmo.circleCenterRight( 360.0, 240)
 cosmo.wait( 2 )
-cosmo.showDirectionVector( 'Earth', 'Cape Canaveral' )
+# cosmo.showDirectionVector( 'Earth', 'Cape Canaveral' )
 cosmo.wait( 1 )
-cosmo.setTimeRate( 600 )
-cosmo.unpause()
-cosmo.wait( 5 )
-cosmo.circleCenterUp( 75, 5 )
-cosmo.wait( 5 )
+# cosmo.wait( 5 )
+cosmo.wait( 20 )
+cosmo.moveAwayFromCenter( 10000, 3 ).wait( 1 )
+cosmo.wait( 20 )
+
+
 
 cosmo.pause()
