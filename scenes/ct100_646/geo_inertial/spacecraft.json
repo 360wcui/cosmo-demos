@@ -5,7 +5,7 @@
       {
          "class"     : "spacecraft",
          "name"      : "Cape Canaveral",
-         "startTime" : "2021-12-26 12:00:00 UTC",
+         "startTime" : "2021-12-26 14:00:00 UTC",
          "center"    : "Earth",
          "trajectory": {
             "type"  : "Spice",
@@ -28,7 +28,7 @@
       {
          "class"     : "spacecraft",
          "name"      : "997",
-         "startTime" : "2021-12-26 12:00:00 UTC",
+         "startTime" : "2021-12-26 14:00:00 UTC",
          "center"    : "Earth",
          "trajectory": {
             "type"  : "Spice",
